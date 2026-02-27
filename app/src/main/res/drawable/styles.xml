@@ -6,4 +6,5 @@
         <item name="android:colorAccent">@color/colorAccent</item>
         <item name="android:navigationBarColor">?android:colorPrimary</item>
 	</style>
+
 </resources>
