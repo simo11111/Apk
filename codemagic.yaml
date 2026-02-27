@@ -5,8 +5,8 @@ workflows:
     environment:
       vars:
         PACKAGE_NAME: "com.derbmaroc.battle"
-      flutter: stable
     scripts:
+      - chmod +x gradlew
       - ./gradlew assembleDebug
     artifacts:
       - app/build/outputs/**/*.apk
