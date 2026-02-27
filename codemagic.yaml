@@ -6,7 +6,7 @@ workflows:
       vars:
         PACKAGE_NAME: "com.derbmaroc.battle"
     scripts:
-      - chmod +x gradlew
-      - ./gradlew assembleDebug
+      - cd app
+      - gradle assembleDebug
     artifacts:
       - app/build/outputs/**/*.apk
